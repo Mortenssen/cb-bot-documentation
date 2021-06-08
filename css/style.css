@@ -18,7 +18,12 @@
     SKELETON    
 ------------------------------------------------------- */
 body {
-    background: #fff;
+    /* background: #fff; */
+    background: url("../images/background.png") no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: #777777;
     font-size: 14px;
     line-height: 31px;
@@ -226,6 +231,11 @@ h4 a {
     font-size: 14px;
     font-weight: bold;
     padding-left: 20px;
+}
+
+hr {
+    border-color:#b6b6b6;
+    border-width: 1px;
 }
 
 .dark-text hr {
