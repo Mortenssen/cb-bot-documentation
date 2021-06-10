@@ -406,3 +406,15 @@ a:hover {
     padding: 0.4rem 0.4rem;
     color: #777777;
 }
+
+.featured-image {
+    border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+    .featured-image {
+        width: 100% !important;
+    }
+
+    
+}
